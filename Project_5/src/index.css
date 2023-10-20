@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 1000;
-  background-image : url("https://as2.ftcdn.net/v2/jpg/01/94/35/19/1000_F_194351905_FlzhKrXQkZdLBaq1wZmssTSILprWRghW.jpg");
+  background-image : url("https://cdn.wallpapersafari.com/69/10/CEokAi.jpg");
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   font-synthesis: none;
@@ -55,7 +55,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #f5f8fa;
     background-color: #ffffff;
   }
   a:hover {
@@ -114,4 +114,17 @@ td {
   box-shadow: 0 15px 25px hsla(0,2%,50%,.2);
   margin-bottom: 30px;
   width: 300px;
+}
+
+.stat_1, .stat_2, .stat_3 {
+  display: inline-block;
+  border-radius: 4px; /* Smaller border radius */
+  border: 1px solid #000; /* Black border */
+  padding: 0.25em 0.25em; /* Smaller padding */
+  font-size: 0.8em; /* Smaller font size */
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #535bf2;
+  width: 100px; /* Set the width to your desired value */
+  margin-right: 10px; /* Add some margin between the elements */
 }
